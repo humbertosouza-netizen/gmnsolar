@@ -39,9 +39,7 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    serverActions: true,
-    serverComponents: true,
-    appDir: true
+    serverActions: true
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
