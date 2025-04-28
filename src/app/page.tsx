@@ -1,32 +1,13 @@
 import type { Metadata } from 'next';
-import { Box, Container, Typography, Grid, Paper, Button } from '@mui/material';
+import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import BoltIcon from '@mui/icons-material/Bolt';
-import WaterDropIcon from '@mui/icons-material/WaterDrop';
-import WhatshotIcon from '@mui/icons-material/Whatshot';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import FactoryIcon from '@mui/icons-material/Factory';
-import HomeWorkIcon from '@mui/icons-material/HomeWork';
 import SimuladorSolar from '@/components/SimuladorSolar';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import CTAButton from '@/components/CTAButton';
 import SolarEffects from '@/components/SolarEffects';
 import TeamSection from '@/components/TeamSection';
 import ServicesSection from '@/components/ServicesSection';
-
-const pages = [
-  { label: 'Início', id: 'hero' },
-  { label: 'Simulador', id: 'simulador' },
-  { label: 'Energia Solar', id: 'porque-solar' },
-  { label: 'Como Funciona', id: 'como-funciona' },
-  { label: 'Sobre', id: 'sobre' },
-  { label: 'Serviços', id: 'servicos' },
-  { label: 'Equipe', id: 'equipe' },
-  { label: 'Dúvidas', id: 'faq' },
-];
 
 export const metadata: Metadata = {
   title: 'GMN Solar - Energia Solar em Campo Grande e MS | Instalação e Manutenção',

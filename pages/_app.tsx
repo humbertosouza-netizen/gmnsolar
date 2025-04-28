@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         console.log('Service Worker registrado com sucesso:', registration);
 
         // Verifica se há uma nova versão disponível
-        registration.addEventListener('waiting', event => {
+        registration.addEventListener('waiting', () => {
           if (registration.waiting) {
             setWaitingWorker(registration.waiting);
             setShowReload(true);
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         });
 
         // Atualiza a página quando o service worker é atualizado
-        registration.addEventListener('controlling', event => {
+        registration.addEventListener('controlling', () => {
           window.location.reload();
         });
       }).catch(error => {
