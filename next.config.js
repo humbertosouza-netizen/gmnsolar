@@ -20,6 +20,8 @@ const nextConfig = {
     return config;
   },
   reactStrictMode: true,
+  poweredByHeader: false,
+  compress: true,
   headers: async () => {
     return [
       {
@@ -36,6 +38,12 @@ const nextConfig = {
         ],
       },
     ];
+  },
+  // Otimizações para o build
+  swcMinify: true,
+  experimental: {
+    optimizeCss: true,
+    legacyBrowsers: false,
   },
 };
 
