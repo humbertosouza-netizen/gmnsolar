@@ -5,6 +5,7 @@ import {
   Container,
   Grid,
   Typography,
+  IconButton,
   Link,
   keyframes,
 } from '@mui/material';
@@ -12,6 +13,8 @@ import { styled } from '@mui/material/styles';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 import BusinessIcon from '@mui/icons-material/Business';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
@@ -205,11 +208,11 @@ export default function Footer() {
               underline="none"
             >
               <WhatsAppIcon /> Christopher
-            </FooterLink>
+                </FooterLink>
 
             <Typography variant="subtitle2" color="text.secondary" sx={{ mt: 2, fontSize: '0.7rem' }}>
               Clique no nome para iniciar uma conversa
-            </Typography>
+              </Typography>
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>

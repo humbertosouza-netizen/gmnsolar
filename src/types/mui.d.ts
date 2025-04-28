@@ -1,4 +1,5 @@
 import '@mui/material/styles';
+import { GridProps } from '@mui/material';
 
 declare module '@mui/material/styles' {
   interface Theme {
@@ -16,5 +17,11 @@ declare module '@mui/material/styles' {
   }
   interface PaletteOptions {
     neutral?: PaletteOptions['primary'];
+  }
+}
+
+declare module '@mui/material/Grid' {
+  interface GridProps {
+    item?: boolean;
   }
 } 
