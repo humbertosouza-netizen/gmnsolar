@@ -1,0 +1,96 @@
+{
+  "name": "GMN Solar - Energia Solar em MS",
+  "short_name": "GMN Solar",
+  "description": "Soluções completas em energia solar para Residências, Agro, Comércio e Indústria em todo MS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#004d40",
+  "theme_color": "#004d40",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["business", "utilities", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshots/home-mobile.jpg",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "platform": "narrow",
+      "label": "Tela inicial no celular"
+    },
+    {
+      "src": "/screenshots/home-desktop.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Tela inicial no desktop"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-152x152.png", 
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384", 
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Solicitar Orçamento",
+      "short_name": "Orçamento",
+      "description": "Solicite um orçamento para seu projeto solar",
+      "url": "/orcamento",
+      "icons": [{ "src": "/icons/calculator.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nossos Projetos",
+      "short_name": "Projetos",
+      "description": "Veja nossos projetos realizados",
+      "url": "/projetos",
+      "icons": [{ "src": "/icons/projects.png", "sizes": "192x192" }]
+    }
+  ]
+} 
