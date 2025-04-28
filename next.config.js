@@ -38,8 +38,15 @@ const nextConfig = {
     ];
   },
   experimental: {
-    optimizeCss: true
-  }
+    optimizeCss: true,
+    serverActions: true,
+    serverComponents: true,
+    appDir: true
+  },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  transpilePackages: ['@mui/material', '@mui/icons-material']
 };
 
 module.exports = withPWA(nextConfig); 
