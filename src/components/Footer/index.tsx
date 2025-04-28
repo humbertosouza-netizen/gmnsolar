@@ -5,7 +5,6 @@ import {
   Container,
   Grid,
   Typography,
-  IconButton,
   Link,
   keyframes,
 } from '@mui/material';
@@ -13,8 +12,6 @@ import { styled } from '@mui/material/styles';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
 import BusinessIcon from '@mui/icons-material/Business';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
